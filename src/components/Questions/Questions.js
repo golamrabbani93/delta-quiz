@@ -3,10 +3,9 @@ import Option from '../Option/Option';
 import './Questions.css';
 
 const Questions = ({qt, ind}) => {
-	console.log(qt);
 	ind++;
-	// console.log(ind);
-	const {question, options} = qt;
+	console.log(qt);
+	const {question, options, correctAnswer} = qt;
 	return (
 		<div>
 			<div className="question">
@@ -17,8 +16,8 @@ const Questions = ({qt, ind}) => {
 					<h2>hello</h2>
 				</div>
 				<div className="options grid grid-cols-2 gap-3 w-6/12 m-auto">
-					{options.map((option) => (
-						<Option option={option}></Option>
+					{options.map((option, ind) => (
+						<Option option={option} key={ind} correctAnswer={correctAnswer}></Option>
 					))}
 				</div>
 			</div>
