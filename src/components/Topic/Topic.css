@@ -1,0 +1,17 @@
+.img {
+	background-color: #dc164a;
+	width: 500px;
+	border-radius: 15px;
+}
+.header-bg {
+	height: 360px;
+	/* width: 100%; */
+	background-position: 100% 20%;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+.header-bg > h1 {
+	letter-spacing: 10px;
+	font-weight: 800;
+	text-transform: uppercase;
+}
