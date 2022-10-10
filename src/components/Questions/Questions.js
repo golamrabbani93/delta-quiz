@@ -1,4 +1,5 @@
 import React from 'react';
+import Option from '../Option/Option';
 
 const Questions = ({qt, ind}) => {
 	console.log(qt);
@@ -14,6 +15,9 @@ const Questions = ({qt, ind}) => {
 					</h2>
 					<h2>hello</h2>
 				</div>
+				{options.map((option) => (
+					<Option></Option>
+				))}
 			</div>
 		</div>
 	);
