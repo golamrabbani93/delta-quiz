@@ -1,0 +1,22 @@
+header {
+	/* box-shadow: 10px 10px 10px red; */
+	background: #dc164a;
+}
+.logo {
+	font-weight: 700;
+	transition: all 0.3s;
+}
+nav > a {
+	margin-right: 10px;
+	transition: all 0.3s;
+	font-weight: 700;
+}
+.logo:hover {
+	color: #000;
+}
+nav > a:hover {
+	color: #000;
+}
+.active {
+	color: #000;
+}
