@@ -4,7 +4,6 @@ import './Questions.css';
 
 const Questions = ({qt, ind}) => {
 	ind++;
-	console.log(qt);
 	const {question, options, correctAnswer} = qt;
 	return (
 		<div>
