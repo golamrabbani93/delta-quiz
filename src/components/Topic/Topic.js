@@ -9,8 +9,8 @@ const Topic = ({data}) => {
 			<div className="img">
 				<img src={logo} alt={name} />
 			</div>
-			<h3 className="font-bold pb-2 ">Total Quiz Question : {total}</h3>
-			<div className="details">
+			<h3 className="font-bold pt-2 text-center">Total Quiz Question : {total}</h3>
+			<div className="details flex justify-around mt-5 items-center ">
 				<h3>{name}</h3>
 				<button>
 					<span>Strat Practice</span>
