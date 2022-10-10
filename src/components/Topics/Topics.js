@@ -7,6 +7,14 @@ const Topics = () => {
 
 	return (
 		<div>
+			<div
+				className="header-bg flex items-center justify-center"
+				style={{backgroundImage: "url('header.jpg')"}}
+			>
+				<h1 className="text-center text-5xl text-white">
+					Ready For a <span className="block text-center text-8xl pt-3">QUIZ</span>
+				</h1>
+			</div>
 			{data.map((data) => (
 				<Topic key={data.id} data={data}></Topic>
 			))}
