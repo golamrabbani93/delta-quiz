@@ -13,6 +13,7 @@ const Navbar = () => {
 					Topic
 				</NavLink>
 				<NavLink to="/statics">Statics</NavLink>
+				<NavLink to="/blog">Blog</NavLink>
 			</nav>
 		</header>
 	);
