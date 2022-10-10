@@ -1,0 +1,10 @@
+.option {
+	border: 1px solid #dc164a;
+	transition: all 0.3s;
+}
+.option:hover {
+	background-color: #dc164b93;
+}
+.option > label {
+	font-weight: 700;
+}
