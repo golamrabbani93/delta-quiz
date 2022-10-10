@@ -3,7 +3,6 @@ import {Link} from 'react-router-dom';
 import './Topic.css';
 
 const Topic = ({data}) => {
-	console.log(data);
 	const {id, name, logo, total} = data;
 	return (
 		<div className="topic">
