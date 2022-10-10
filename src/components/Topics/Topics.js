@@ -15,7 +15,7 @@ const Topics = () => {
 					Ready For a <span className="block text-center text-8xl pt-3">QUIZ</span>
 				</h1>
 			</div>
-			<div className="grid gap-4 grid-cols-2 justify-center justify-items-center mt-12 mb-12">
+			<div className="grid gap-4 md:grid-cols-2 justify-center justify-items-center mt-12 mb-12">
 				{data.map((data) => (
 					<Topic key={data.id} data={data}></Topic>
 				))}

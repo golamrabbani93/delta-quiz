@@ -8,3 +8,7 @@
 .option > label {
 	font-weight: 700;
 }
+.complete {
+	pointer-events: none;
+	opacity: 0.5;
+}
