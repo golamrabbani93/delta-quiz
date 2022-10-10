@@ -12,7 +12,7 @@ const Navbar = () => {
 				</div>
 				<nav className="pr-24">
 					<NavLink to="/" end>
-						Topic
+						Topics
 					</NavLink>
 					<NavLink to="/statics">Statics</NavLink>
 					<NavLink to="/blog">Blog</NavLink>
