@@ -27,6 +27,7 @@ function App() {
 				},
 				{
 					path: 'statics',
+					loader: getData,
 					element: <Statics></Statics>,
 				},
 				{
