@@ -1,3 +1,8 @@
+.quiz-container {
+	display: grid;
+	grid-template-columns: 6fr 2fr;
+}
+
 .quiz {
 	margin-top: 50px;
 }
@@ -5,4 +10,35 @@
 	text-align: center;
 	font-weight: 700;
 	color: #dc164a;
+}
+
+.count {
+	position: sticky;
+	top: 5%;
+	margin-top: 10px;
+	background-color: #dc164a;
+	height: 200px;
+	padding: 20px;
+	text-align: center;
+}
+.count > a {
+	font-weight: 700;
+	color: #fff;
+	border: 1px solid #fff;
+	padding: 10px 20px;
+	transition: all 0.4s;
+}
+.count > a:hover {
+	color: #000;
+	background-color: #fff;
+}
+
+@media (max-width: 768px) {
+	.quiz-container {
+		display: grid;
+		grid-template-columns: 1fr;
+	}
+	.count {
+		text-align: center;
+	}
 }

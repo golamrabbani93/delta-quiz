@@ -2,12 +2,16 @@ import React from 'react';
 import './Option.css';
 import {ToastContainer, toast} from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
-const Option = ({option, correctAnswer}) => {
+const Option = ({option, correctAnswer, right, setRight, wrong, setWrong}) => {
 	const testAnswer = (option, e) => {
 		if (option === correctAnswer) {
 			success();
+			const newRight = right + 1;
+			setRight(newRight);
 		} else {
 			failed();
+			const newWrong = wrong + 1;
+			setWrong(newWrong);
 		}
 		e.target.parentNode.parentNode.classList.add('complete');
 	};

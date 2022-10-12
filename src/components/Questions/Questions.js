@@ -3,7 +3,7 @@ import Option from '../Option/Option';
 import './Questions.css';
 
 import {EyeIcon} from '@heroicons/react/24/solid';
-const Questions = ({qt, ind}) => {
+const Questions = ({qt, ind, setRight, right, wrong, setWrong}) => {
 	const [show, showAnswer] = useState(false);
 	ind++;
 	const {question, options, correctAnswer} = qt;
@@ -25,7 +25,15 @@ const Questions = ({qt, ind}) => {
 				</div>
 				<div className="options grid md:grid-cols-2 gap-3 md:w-6/12 m-5 md:m-auto">
 					{options.map((option, ind) => (
-						<Option option={option} key={ind} correctAnswer={correctAnswer}></Option>
+						<Option
+							right={right}
+							setRight={setRight}
+							wrong={wrong}
+							setWrong={setWrong}
+							option={option}
+							key={ind}
+							correctAnswer={correctAnswer}
+						></Option>
 					))}
 				</div>
 			</div>
