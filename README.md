@@ -1,10 +1,23 @@
-# Name: Delta Quiz
+# Website Name: Delta Quiz
+
+## live website link [http://localhost:3000](http://localhost:3000)
+
+### This web page is a single page application built with React.
 
 ## What does this website do?
 
-# Getting Started with Create React App
+### This website consists of quizzes on various programming languages. You are here to test your skills with quizzes on different programming languages.
 
-### This website consists of quizzes on various programming languages. You are here to test your skills with quizzes on different programming languages
+# What are the features of this website?
+
+## Homepage / Topics page
+
+1: If you go to the home page, you can see what will be quizzed on. 2: Then select the programming
+language of your choice and start taking the quiz.3:You can take a quiz only once when taking a quiz
+and once the quiz is taken, you will see whether your quiz answer is correct or incorrect in the
+form of a notification.
+
+# Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
