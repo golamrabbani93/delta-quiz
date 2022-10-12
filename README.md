@@ -1,6 +1,6 @@
 # Website Name: Delta Quiz
 
-## live website link [http://localhost:3000](http://localhost:3000)
+## live website link [https://delta-quizs.netlify.app/](https://delta-quizs.netlify.app/)
 
 ### This web page is a single page application built with React.
 
