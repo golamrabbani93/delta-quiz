@@ -15,6 +15,7 @@ const Questions = ({qt, ind}) => {
 						Quiz No: {ind} {question}
 					</h2>
 					<EyeIcon
+						title="See Correct Answer"
 						onClick={() => showAnswer(!show)}
 						className="eye h-7 w-7 mx-auto my-3 cursor-pointer"
 					/>
