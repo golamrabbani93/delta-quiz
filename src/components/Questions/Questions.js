@@ -23,7 +23,7 @@ const Questions = ({qt, ind, setRight, right, wrong, setWrong}) => {
 						Correct Answer : {correctAnswer}
 					</h2>
 				</div>
-				<div className="options grid md:grid-cols-2 gap-3 md:w-6/12 m-5 md:m-auto">
+				<div className="options grid md:grid-cols-2 gap-3 md:w-4/5 m-5 md:m-auto">
 					{options.map((option, ind) => (
 						<Option
 							right={right}
