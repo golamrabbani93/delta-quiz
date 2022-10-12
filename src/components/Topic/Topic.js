@@ -15,7 +15,7 @@ const Topic = ({data}) => {
 			<div className="details flex justify-around mt-5 items-center ">
 				<h3>{name}</h3>
 				<button>
-					<Link to={`/quiz/${id}`}>Strat Practice</Link>
+					<Link to={`/quiz/${id}`}>Start Practice</Link>
 				</button>
 			</div>
 		</div>

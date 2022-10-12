@@ -1,12 +1,14 @@
-header {
-	/* box-shadow: 10px 10px 10px red; */
-}
 .header-nav {
 	background: #dc164a;
 }
 .logo {
 	font-weight: 700;
 	transition: all 0.3s;
+}
+nav {
+	transition: all 0.4s;
+	background: #dc164a;
+	padding-left: 20px;
 }
 nav > a {
 	margin-right: 20px;
@@ -16,7 +18,12 @@ nav > a {
 .logo:hover {
 	color: #000;
 }
-nav > a:hover {
+.navLink > a {
+	margin-right: 20px;
+	transition: all 0.3s;
+	font-weight: 800;
+}
+.navLink > a:hover {
 	color: #000;
 }
 .active {

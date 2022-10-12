@@ -9,12 +9,12 @@ const Questions = ({qt, ind}) => {
 		<div>
 			<div className="question">
 				<div className="question-details">
-					<h2 className="w-4/12 m-auto mt-7">
+					<h2 className="md:w-4/12 m-auto mt-7 ">
 						Quiz No: {ind} {question}
 					</h2>
 					<h2>hello</h2>
 				</div>
-				<div className="options grid grid-cols-2 gap-3 w-6/12 m-auto">
+				<div className="options grid md:grid-cols-2 gap-3 md:w-6/12 m-5 md:m-auto">
 					{options.map((option, ind) => (
 						<Option option={option} key={ind} correctAnswer={correctAnswer}></Option>
 					))}
