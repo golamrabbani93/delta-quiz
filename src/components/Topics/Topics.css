@@ -1,0 +1,15 @@
+.header-bg {
+	height: 91vh;
+	background-position: 100% 20%;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+.header-bg > h1 {
+	letter-spacing: 10px;
+	font-weight: 800;
+	text-transform: uppercase;
+}
+.details > h3 {
+	font-weight: 700;
+	color: #dc164a;
+}

@@ -8,22 +8,7 @@
 	width: auto;
 	border-radius: 15px;
 }
-.header-bg {
-	height: 360px;
-	/* width: 100%; */
-	background-position: 100% 20%;
-	background-repeat: no-repeat;
-	background-size: cover;
-}
-.header-bg > h1 {
-	letter-spacing: 10px;
-	font-weight: 800;
-	text-transform: uppercase;
-}
-.details > h3 {
-	font-weight: 700;
-	color: #dc164a;
-}
+
 .details > button {
 	border: 1px solid #dc164a;
 	padding: 5px 20px;
