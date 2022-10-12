@@ -1,0 +1,10 @@
+.Single-blog {
+	border: 2px dotted #dc164a;
+	padding: 20px;
+	margin-bottom: 15px;
+}
+
+.mark {
+	color: #dc164a;
+	font-weight: 700;
+}
