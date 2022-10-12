@@ -13,7 +13,6 @@ import {
 import './Statics.css';
 const Statics = () => {
 	const {data} = useLoaderData();
-	console.log(data);
 
 	return (
 		<div className="m-auto chart-container">
