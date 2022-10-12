@@ -18,12 +18,8 @@ nav > a {
 .logo:hover {
 	color: #000;
 }
-.navLink > a {
-	margin-right: 20px;
-	transition: all 0.3s;
-	font-weight: 800;
-}
-.navLink > a:hover {
+
+nav > a:hover {
 	color: #000;
 }
 .active {
