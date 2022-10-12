@@ -1,6 +1,7 @@
 import {createBrowserRouter, RouterProvider} from 'react-router-dom';
 import './App.css';
 import Blog from './components/Blog/Blog';
+import NotFound from './components/NotFound/NotFound';
 import Quiz from './components/Quiz/Quiz';
 import Statics from './components/Statics/Statics';
 import Topics from './components/Topics/Topics';
@@ -36,6 +37,10 @@ function App() {
 					element: <Blog></Blog>,
 				},
 			],
+		},
+		{
+			path: '*',
+			element: <NotFound></NotFound>,
 		},
 	]);
 	return (
