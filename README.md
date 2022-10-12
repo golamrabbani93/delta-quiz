@@ -12,10 +12,19 @@
 
 ## Homepage / Topics page
 
-(1)If you go to the home page, you can see what will be quizzed on.\
-Then select the programming language of your choice and start taking the quiz.\
-You can take a quiz only once when taking a quiz and once the quiz is taken, you will see whether
+(1) If you go to the home page, you can see what will be quizzed on.\
+(2)Then select the programming language of your choice and start taking the quiz.\
+(3)You can take a quiz only once when taking a quiz and once the quiz is taken, you will see whether
 your quiz answer is correct or incorrect in the form of a notification.\
+
+## Statics page
+
+If you go to the statistics page, you can see in chart form how many quizzes there are on what
+language.
+
+## Blog page
+
+You can visit the blog page to see answers to some questions.
 
 # Getting Started with Create React App
 
