@@ -32,6 +32,7 @@ function App() {
 				},
 				{
 					path: 'blog',
+					loader: () => fetch('question.json'),
 					element: <Blog></Blog>,
 				},
 			],
