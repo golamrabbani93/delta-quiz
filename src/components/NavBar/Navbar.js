@@ -19,7 +19,7 @@ const Navbar = () => {
 				</div>
 
 				<nav
-					className={`flex flex-col md:flex-row md:justify-end mx-auto md:pr-24 text-center w-full absolute md:static ${
+					className={`flex flex-col md:flex-row md:justify-end mx-auto md:pr-20 text-center w-full absolute md:static ${
 						open ? 'left-0' : 'left-[-900px]'
 					}`}
 				>
